@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <title>图灵节点 · NFT 发放管理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="admin-page">
+    <main class="admin-shell">
+      <header class="admin-header">
+        <div>
+          <span class="purchase-kicker">TURING NODE OPERATIONS</span>
+          <h1>节点 NFT 发放管理</h1>
+          <p>仅处理已经过链上 USDT 核验的订单。请在发放 NFT 后填写 Mint 与发放交易签名，再将订单标记为已发放。</p>
+        </div>
+        <span class="admin-network-badge">SOLANA MAINNET</span>
+      </header>
+
+      <section class="admin-card" aria-labelledby="admin-login-title">
+        <div class="admin-auth-row">
+          <label class="admin-field" for="admin-token">
+            <span id="admin-login-title">管理员令牌 / Admin token</span>
+            <input class="admin-input" id="admin-token" type="password" autocomplete="current-password" spellcheck="false">
+            <small>令牌仅保存在本标签页的 sessionStorage，不会写入 URL 或 localStorage。</small>
+          </label>
+          <button class="admin-button" id="admin-login" type="button">进入管理台</button>
+          <button class="admin-button secondary" id="admin-logout" type="button" hidden>退出</button>
+        </div>
+        <p class="admin-session" id="admin-session-status" role="status" aria-live="polite">请输入管理员令牌。</p>
+      </section>
+
+      <section class="admin-card admin-orders" id="admin-orders" aria-labelledby="admin-orders-title" hidden>
+        <div class="admin-toolbar">
+          <h2 id="admin-orders-title">订单列表</h2>
+          <div class="admin-toolbar-controls">
+            <label class="sr-only" for="admin-status-filter">订单状态</label>
+            <select class="admin-select" id="admin-status-filter">
+              <option value="fulfillment_queue">待处理队列（含人工复核）</option>
+              <option value="nft_pending">已付款 · NFT 待发放</option>
+              <option value="paid_manual_review">付款已核验 · 人工复核</option>
+              <option value="nft_issued">NFT 已发放</option>
+              <option value="payment_confirming">付款确认中</option>
+              <option value="awaiting_payment">等待付款</option>
+              <option value="">全部订单</option>
+            </select>
+            <button class="admin-button secondary" id="admin-refresh" type="button">刷新</button>
+          </div>
+        </div>
+        <div class="admin-order-list" id="admin-order-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./node-config.js"></script>
+    <script src="./admin-node-orders.js"></script>
+  </body>
+</html>

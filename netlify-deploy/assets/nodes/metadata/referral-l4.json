@@ -1,0 +1,13 @@
+{
+  "name": "Turing Referral Reward — 5,000 U",
+  "symbol": "TREF",
+  "description": "Wallet-bound invitation reward certificate issued after delivery of a referred L4 node. Intended for later in-game redemption under the published reward rules.",
+  "image": "https://meta9898.shop/assets/images/fishing-world.webp",
+  "external_url": "https://meta9898.shop/#/en/referral-rewards",
+  "attributes": [
+    { "trait_type": "Reference Value", "value": "5,000 U" },
+    { "trait_type": "Source Tier", "value": "L4" },
+    { "trait_type": "Transferability", "value": "Non-transferable" },
+    { "trait_type": "Network", "value": "Solana Mainnet" }
+  ]
+}

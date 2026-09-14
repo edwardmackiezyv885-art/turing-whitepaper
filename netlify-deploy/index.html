@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="图灵 Turing 链上开放世界白皮书。了解玩法、节点、今日代币与玩家数据、经济循环、RWA、DAO、技术路线与里程碑。" />
+    <meta name="theme-color" content="#f7faff" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="图灵 Turing · 官方白皮书" />
+    <meta property="og:description" content="一个可玩、可拥有、可共同建设的链上开放世界。白皮书 2.0 已更新游戏玩法、节点、DAO 与技术路线。" />
+    <meta property="og:url" content="https://meta9898.shop/" />
+    <meta property="og:image" content="https://meta9898.shop/assets/images/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://meta9898.shop/" />
+    <title>图灵 Turing · 白皮书</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=20260730-merchant-catalog-api-v2" />
+  </head>
+  <body>
+    <form name="merchant-onboarding" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="merchant-onboarding">
+      <input name="bot-field">
+      <input name="business_name">
+      <input name="entity_type">
+      <input name="registration_region">
+      <input name="contact_name">
+      <input name="contact_method">
+      <input name="store_address">
+      <input name="business_category">
+      <input name="launch_region">
+      <textarea name="business_intro"></textarea>
+      <textarea name="products_services"></textarea>
+      <textarea name="player_offer"></textarea>
+      <input name="gem_preference">
+      <input name="official_website">
+      <textarea name="asset_links"></textarea>
+      <input name="authorization_confirmed">
+      <input name="terms_acknowledged">
+      <input name="privacy_acknowledged">
+      <input name="locale">
+      <input name="source_page">
+      <input name="submitted_at">
+      <input name="application_id">
+      <input name="store_asset_ids">
+      <input name="product_asset_ids">
+      <input name="catalog_schema">
+    </form>
+    <form name="merchant-payment-receipt" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="merchant-payment-receipt">
+      <input name="application_id">
+      <input name="order_id">
+      <input name="payer_wallet">
+      <input name="amount_usdt">
+      <input name="network">
+      <input name="usdt_mint">
+      <input name="transaction_signature">
+      <input name="paid_at">
+    </form>
+    <a class="skip-link" href="#main-content">跳到正文</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#/zh/introduction" aria-label="图灵白皮书首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img"><path d="M24 2 31 11 42 12 44 23 37 31 39 42 28 45 19 39 8 43 3 34 7 24 1 15 10 8 21 9Z"/><path d="m16 24 6-6 5 5 5-5 4 4-9 9-5-5-5 5-4-4Z"/></svg>
+          </span>
+          <span class="brand-copy"><b>图灵 <i>TURING</i></b><small data-i18n="whitepaper">白皮书</small></span>
+        </a>
+
+        <button class="search-trigger" id="search-trigger" type="button" aria-label="搜索白皮书">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <span data-i18n="search">搜索白皮书</span>
+          <kbd>⌘ K</kbd>
+        </button>
+
+        <div class="top-actions">
+          <button class="icon-button mobile-only" id="menu-button" type="button" aria-label="打开目录" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </button>
+          <button class="node-buy-button" id="node-buy-button" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.5 7v10l7.5 4 7.5-4V7L12 3Z"/><path d="m4.8 7.2 7.2 4 7.2-4M12 11.2V21"/></svg>
+            <span data-node-i18n="buyNode">购买节点</span>
+          </button>
+          <button class="lang-button" id="lang-button" type="button" aria-label="Switch language"><span>中</span><i></i><span>EN</span></button>
+          <button class="icon-button" id="theme-button" type="button" aria-label="切换深色模式">
+            <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.3A8.5 8.5 0 1 1 8.7 4 7 7 0 0 0 20 15.3Z"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <div class="body-grid">
+        <div class="drawer-scrim" id="drawer-scrim"></div>
+        <aside class="sidebar" id="sidebar" aria-label="白皮书目录">
+          <div class="sidebar-inner">
+            <nav id="sidebar-nav"></nav>
+            <div class="sidebar-footer">
+              <span class="status-dot"></span>
+              <span data-i18n="version">版本 1.0 · 2026</span>
+            </div>
+          </div>
+        </aside>
+
+        <main id="main-content" tabindex="-1">
+          <article id="article" class="article"></article>
+          <nav id="page-nav" class="page-nav" aria-label="章节翻页"></nav>
+          <footer class="site-footer">
+            <div><b>图灵 TURING</b><span data-i18n="footerLine">开放世界 · 共同创造 · 持续生长</span></div>
+            <p data-i18n="footerNote">本白皮书不构成投资建议。参数与路线将随测试、社区反馈及实际运营持续调整。</p>
+          </footer>
+        </main>
+
+        <aside class="toc" aria-label="本页目录">
+          <div class="toc-inner">
+            <p data-i18n="onThisPage">本页内容</p>
+            <nav id="toc-nav"></nav>
+            <button id="copy-link" class="copy-link" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.14M14 11a5 5 0 0 0-7.54-.54l-2 2a5 5 0 0 0 7.07 7.07l1.14-1.14"/></svg>
+              <span data-i18n="copyLink">复制链接</span>
+            </button>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title">
+      <div class="search-box">
+        <div class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <input id="search-input" type="search" autocomplete="off" placeholder="搜索章节或关键词…" aria-labelledby="search-title" />
+          <button id="search-close" type="button" aria-label="关闭搜索">Esc</button>
+        </div>
+        <h2 id="search-title" class="sr-only">搜索白皮书</h2>
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </dialog>
+
+    <dialog id="node-purchase-dialog" class="node-purchase-dialog" aria-labelledby="node-purchase-title">
+      <div class="purchase-shell">
+        <header class="purchase-header">
+          <div>
+            <span class="purchase-kicker">TURING NODE</span>
+            <h2 id="node-purchase-title" data-node-i18n="purchaseTitle">购买图灵节点</h2>
+          </div>
+          <button class="dialog-close" id="node-purchase-close" type="button" aria-label="关闭">×</button>
+        </header>
+
+        <div class="contract-gate" id="payment-gate" role="status" aria-live="polite">
+          <span class="gate-dot"></span>
+          <div><b data-node-i18n="paymentLockedTitle">支付服务暂不可用</b><p data-node-i18n="paymentLockedText">当前不会发起付款，请稍后重试。</p></div>
+        </div>
+
+        <div class="payment-test-banner" id="payment-test-banner" role="note" hidden>
+          <strong data-node-i18n="testBannerTitle">0.5 USDT 主网支付测试</strong>
+          <p data-node-i18n="testBannerText">仅用于验证付款、邀请登记和订单状态；不产生正式节点权益、NFT 或邀请奖励。</p>
+        </div>
+
+        <div class="purchase-grid">
+          <div class="purchase-main">
+            <section class="purchase-section wallet-section">
+              <div class="section-heading"><span class="step-chip">01</span><div><h3 data-node-i18n="connectWalletTitle">连接付款钱包</h3><p data-node-i18n="connectWalletHint">节点权益和 NFT 凭证将发放至这个地址。</p></div></div>
+              <button class="wallet-button" id="wallet-connect-button" type="button"><span class="wallet-status-dot"></span><span data-node-i18n="connectWallet">连接 Solana 钱包</span></button>
+              <div class="wallet-picker" id="wallet-picker" hidden>
+                <div class="wallet-picker-head"><strong data-node-i18n="chooseWallet">选择钱包</strong><button id="wallet-picker-close" type="button" data-node-i18n-aria="close" aria-label="关闭">×</button></div>
+                <div class="wallet-provider-list" id="wallet-provider-list" role="list"></div>
+                <p class="wallet-picker-note" data-node-i18n="walletCompatibilityNote">支持 Wallet Standard、MetaMask、Bitget Wallet、TokenPocket、OKX Wallet 等 Solana 钱包。冷钱包需通过能够签署 Solana 消息与交易的钱包应用连接。</p>
+              </div>
+              <div class="wallet-address" id="wallet-address" hidden><span data-node-i18n="connectedWallet">已连接</span><code></code><button type="button" id="wallet-disconnect-button" data-node-i18n="disconnect">断开</button></div>
+            </section>
+
+            <section class="purchase-section">
+              <div class="section-heading"><span class="step-chip">02</span><div><h3 data-node-i18n="chooseTier">选择节点等级</h3><p data-node-i18n="tierHint">限量节点交付后永不增发。</p></div></div>
+              <div class="tier-list" id="node-tier-list" role="radiogroup" aria-label="Node tier"></div>
+            </section>
+
+            <section class="purchase-section">
+              <div class="section-heading"><span class="step-chip">03</span><div><h3 data-node-i18n="confirmPayment">确认 USDT 支付</h3><p data-node-i18n="paymentHint">订单只收取 Solana Mainnet 上的官方 USDT，金额由订单服务核定。</p></div></div>
+              <div class="quote-card payment-summary">
+                <div><span data-node-i18n="nodePrice">节点价格</span><strong id="payment-amount">1,000 USDT</strong></div>
+                <div><span data-node-i18n="paymentAsset">付款资产</span><strong>USDT</strong></div>
+                <div class="quote-total"><span data-node-i18n="paymentNetwork">网络</span><strong>Solana Mainnet</strong></div>
+              </div>
+              <div class="token-proof">
+                <span data-node-i18n="officialMint">官方 USDT Mint</span>
+                <code id="usdt-mint">Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</code>
+              </div>
+              <div class="referral-line"><span data-node-i18n="referralSource">邀请归属</span><strong id="active-referrer" data-node-i18n="officialDirect">官方直购</strong></div>
+
+              <div class="rights-notice">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.5 7v5c0 4.5 3.1 7.5 7.5 9 4.4-1.5 7.5-4.5 7.5-9V7L12 3Z"/><path d="m9 12 2 2 4-4"/></svg>
+                <p id="rights-notice-text" data-node-i18n="rightsNotice">付款核验后，节点权益与 NFT 权益凭证将发放至当前付款钱包。请勿使用交易所或托管地址。</p>
+              </div>
+              <label class="confirm-check"><input id="wallet-owner-confirm" type="checkbox"><span data-node-i18n="walletOwnerConfirm">我确认自己控制该钱包，并已核对节点等级、付款金额和邀请归属。</span></label>
+              <button class="purchase-submit" id="node-purchase-submit" type="button" disabled><span data-node-i18n="lockedButton">支付服务暂不可用</span></button>
+              <div class="payment-action-panel" id="payment-action-panel" hidden>
+                <div><strong id="payment-action-title" data-node-i18n="orderReadyTitle">付款订单已准备好</strong><p id="payment-action-text" data-node-i18n="orderReadyText">请点击下方按钮，在钱包中单独确认这笔 USDT 转账。</p></div>
+                <button class="purchase-submit payment-submit" id="node-payment-submit" type="button"><span data-node-i18n="payPreparedOrder">支付 USDT</span></button>
+                <small data-node-i18n="returnToBrowser">钱包确认后如未自动返回，请手动回到本页面查看链上状态。</small>
+              </div>
+              <p class="security-copy" data-node-i18n="securityCopy">第一步只签署不扣款的归属证明并创建订单；第二步由您再次点击并确认明确的 USDT 转账。还需少量 SOL 支付手续费。官方绝不会索取助记词、私钥或无限授权。</p>
+
+              <section class="order-status-panel" id="order-status-panel" aria-live="polite" hidden>
+                <div class="order-status-head">
+                  <div><span data-node-i18n="latestOrder">最近订单</span><strong id="order-status-title">—</strong></div>
+                  <button id="order-status-refresh" type="button" data-node-i18n="refreshStatus">刷新状态</button>
+                </div>
+                <dl class="order-status-details">
+                  <div><dt data-node-i18n="orderNumber">订单号</dt><dd><code id="order-status-id">—</code></dd></div>
+                  <div><dt data-node-i18n="orderReferrer">邀请登记</dt><dd id="order-status-referrer">—</dd></div>
+                  <div><dt data-node-i18n="paymentTransaction">付款交易</dt><dd id="order-payment-signature">—</dd></div>
+                  <div id="order-nft-row" hidden><dt data-node-i18n="nftMint">NFT Mint</dt><dd id="order-nft-mint">—</dd></div>
+                  <div id="order-issuance-row" hidden><dt data-node-i18n="issuanceTransaction">发放交易</dt><dd id="order-issuance-signature">—</dd></div>
+                </dl>
+                <p id="order-status-note"></p>
+              </section>
+            </section>
+          </div>
+
+          <aside class="purchase-side">
+            <section class="invite-card">
+              <span class="side-icon" aria-hidden="true">↗</span>
+              <h3 data-node-i18n="inviteTitle">我的专属邀请链接</h3>
+              <p data-node-i18n="inviteHint">连接钱包后生成。通过该链接完成节点交付，邀请关系将写入购买记录。</p>
+              <div class="invite-link-wrap">
+                <input id="invite-link" type="text" readonly placeholder="Connect wallet first">
+                <button id="copy-invite-link" type="button" disabled data-node-i18n="copy">复制</button>
+              </div>
+              <small data-node-i18n="firstTouch">邀请链接采用首次有效访问记录；购买前可在本窗口核对邀请钱包。</small>
+            </section>
+            <section class="audit-card">
+              <span class="side-icon audit" aria-hidden="true">◎</span>
+              <h3 data-node-i18n="auditTitle">邀请归属补审</h3>
+              <p data-node-i18n="auditHint">如果通过官方链接购买、但实际由节点伙伴邀请，可提交交易签名与邀请人地址申请人工复核。</p>
+              <button id="open-audit-button" type="button" data-node-i18n="applyAudit">申请重新审计</button>
+            </section>
+            <section class="treasury-card">
+              <span data-node-i18n="treasuryLabel">官方收款钱包 Owner</span>
+              <code id="treasury-address">FFhKLmZq6UZF3VvmckCZt8DvXq8LAVQaYc2SLa6Er2W8</code>
+              <p data-node-i18n="treasuryHint">仅用于核对。请通过本页面生成的订单付款，不要手工转账。</p>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="referral-audit-dialog" class="referral-audit-dialog" aria-labelledby="referral-audit-title">
+      <form id="referral-audit-form" name="referral-audit" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="referral-audit">
+        <p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+        <header class="purchase-header">
+          <div><span class="purchase-kicker">REFERRAL REVIEW</span><h2 id="referral-audit-title" data-node-i18n="auditFormTitle">邀请归属补审申请</h2></div>
+          <button class="dialog-close" id="referral-audit-close" type="button" aria-label="关闭">×</button>
+        </header>
+        <p class="form-intro" data-node-i18n="auditFormIntro">请提供链上交易签名、购买钱包和邀请人钱包。提交不代表自动改绑，官方将依据时间、沟通记录和链上数据复核。</p>
+        <div class="form-grid">
+          <label><span data-node-i18n="buyerWallet">购买钱包</span><input id="audit-buyer-wallet" name="buyer_wallet" required autocomplete="off" placeholder="Solana wallet address"></label>
+          <label><span data-node-i18n="referrerWallet">邀请人钱包</span><input name="referrer_wallet" required autocomplete="off" placeholder="Solana wallet address"></label>
+          <label class="full"><span data-node-i18n="transactionSignature">购买交易签名</span><input name="transaction_signature" required autocomplete="off" placeholder="Transaction signature"></label>
+          <label><span data-node-i18n="contact">联系方式</span><input name="contact" required autocomplete="off" placeholder="Email / Telegram / WeChat"></label>
+          <label><span data-node-i18n="purchaseTier">购买档位</span><select name="purchase_tier" required><option value="explorer">L1 · 1,000 USDT</option><option value="builder">L2 · 5,000 USDT</option><option value="cocreator">L3 · 10,000 USDT</option><option value="market-agent">L4 · 50,000 USDT</option></select></label>
+          <label class="full"><span data-node-i18n="evidence">补充说明与证据</span><textarea name="evidence" rows="4" required data-node-i18n-placeholder="evidencePlaceholder" placeholder="请说明邀请时间、沟通方式及可供核验的证据。"></textarea></label>
+        </div>
+        <div class="form-actions"><button type="button" id="audit-cancel" data-node-i18n="cancel">取消</button><button class="audit-submit" type="submit" data-node-i18n="submitAudit">提交申请</button></div>
+        <p class="form-status" id="audit-form-status" role="status" aria-live="polite"></p>
+      </form>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./data.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./wallet-standard-bridge.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./usdt-payment-adapter.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./merchant-application-config.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./merchant-assets.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./merchant-payment-config.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./merchant-payment.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./app.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./node-config.js?v=20260714-formal1"></script>
+    <script src="./node-purchase.js?v=20260714-formal1"></script>
+  </body>
+</html>
