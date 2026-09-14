@@ -1,0 +1,20 @@
+{
+  "collection": "Turing Node Certificates",
+  "symbol": "TNODE",
+  "network": "solana-mainnet-beta",
+  "version": "1.0.0-mainnet-candidate",
+  "transferability": "Token-2022 NonTransferable",
+  "programCandidate": "46z8HyP9StJs6SvPJGC2HgsUoFuH2snsSiWypWVzxdNF",
+  "tiers": [
+    { "id": 0, "level": "L1", "metadata": "./l1.json", "image": "../tnode-l1-explorer.png" },
+    { "id": 1, "level": "L2", "metadata": "./l2.json", "image": "../tnode-l2-builder.png" },
+    { "id": 2, "level": "L3", "metadata": "./l3.json", "image": "../tnode-l3-cocreator.png" },
+    { "id": 3, "level": "L4", "metadata": "./l4.json", "image": "../tnode-l4-core-agent.png" }
+  ],
+  "referralRewards": [
+    { "sourceTier": "L1", "referenceValueU": 100, "metadata": "./referral-l1.json" },
+    { "sourceTier": "L2", "referenceValueU": 500, "metadata": "./referral-l2.json" },
+    { "sourceTier": "L3", "referenceValueU": 1000, "metadata": "./referral-l3.json" },
+    { "sourceTier": "L4", "referenceValueU": 5000, "metadata": "./referral-l4.json" }
+  ]
+}

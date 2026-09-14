@@ -1,0 +1,14 @@
+{
+  "name": "Turing Node Certificate — L3",
+  "symbol": "TNODE",
+  "description": "Wallet-bound certificate for a Turing L3 Co-Creator Node on Solana Mainnet. Rights are governed by the published node agreement; this certificate is not a promise of fixed income, liquidity, or principal protection.",
+  "image": "https://meta9898.shop/assets/nodes/tnode-l3-cocreator.png",
+  "external_url": "https://meta9898.shop/#/en/nodes",
+  "attributes": [
+    { "trait_type": "Tier", "value": "L3 Co-Creator" },
+    { "trait_type": "Reference Price", "value": "10,000 U" },
+    { "trait_type": "Maximum Supply", "value": 20 },
+    { "trait_type": "Transferability", "value": "Non-transferable" },
+    { "trait_type": "Network", "value": "Solana Mainnet" }
+  ]
+}

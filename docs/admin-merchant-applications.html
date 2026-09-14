@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <title>图灵商家 · 申请与商品素材管理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css?v=20260730-merchant-catalog-api-v2">
+  </head>
+  <body class="admin-page">
+    <main class="admin-shell merchant-admin-shell">
+      <header class="admin-header">
+        <div>
+          <span class="purchase-kicker">TURING MERCHANT OPERATIONS</span>
+          <h1>商家申请与商品素材管理</h1>
+          <p>审核商家资料、店面图片与结构化商品目录。链上商城接口已预留，但在合约、内容 URI、签名账户和同步适配器完成前不会执行上链写入。</p>
+        </div>
+        <span class="admin-network-badge">CATALOG API · V1</span>
+      </header>
+
+      <section class="admin-card" aria-labelledby="merchant-admin-login-title">
+        <div class="admin-auth-row">
+          <label class="admin-field" for="merchant-admin-token">
+            <span id="merchant-admin-login-title">管理员令牌 / Admin token</span>
+            <input class="admin-input" id="merchant-admin-token" type="password" autocomplete="current-password" spellcheck="false">
+            <small>令牌仅保存在本标签页的 sessionStorage，不会写入 URL 或 localStorage。</small>
+          </label>
+          <button class="admin-button" id="merchant-admin-login" type="button">进入商家后台</button>
+          <button class="admin-button secondary" id="merchant-admin-logout" type="button" hidden>退出</button>
+        </div>
+        <p class="admin-session" id="merchant-admin-session" role="status" aria-live="polite">请输入管理员令牌。</p>
+      </section>
+
+      <section class="admin-card admin-orders" id="merchant-admin-applications" aria-labelledby="merchant-admin-applications-title" hidden>
+        <div class="admin-toolbar merchant-admin-toolbar">
+          <div>
+            <h2 id="merchant-admin-applications-title">商家申请</h2>
+            <p>图片按需加载；导出的商城目录不包含联系人等后台字段。</p>
+          </div>
+          <div class="admin-toolbar-controls">
+            <label class="sr-only" for="merchant-admin-search">搜索商家</label>
+            <input class="admin-input merchant-admin-search" id="merchant-admin-search" type="search" placeholder="商家名称 / 申请编号">
+            <label class="sr-only" for="merchant-admin-status-filter">申请状态</label>
+            <select class="admin-select" id="merchant-admin-status-filter">
+              <option value="">全部已创建申请</option>
+              <option value="submitted">已提交</option>
+              <option value="under_review">审核中</option>
+              <option value="changes_requested">待补充</option>
+              <option value="approved">已批准</option>
+              <option value="catalog_ready">商城待同步</option>
+              <option value="rejected">未通过</option>
+              <option value="draft">未提交草稿</option>
+            </select>
+            <button class="admin-button secondary" id="merchant-admin-refresh" type="button">刷新</button>
+          </div>
+        </div>
+        <div class="merchant-admin-list" id="merchant-admin-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./merchant-application-config.js?v=20260730-merchant-catalog-api-v2"></script>
+    <script src="./admin-merchant-applications.js?v=20260730-merchant-catalog-api-v2"></script>
+  </body>
+</html>
+
