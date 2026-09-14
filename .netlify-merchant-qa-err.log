@@ -1,0 +1,66 @@
+(node:11204) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Invalid JSON
+    at readJson (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:140:25)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:239:18)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171376)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 400,
+  code: 'INVALID_JSON'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:149:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:235:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:149:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:235:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:149:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:235:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:149:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:235:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:149:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/netlify/functions/merchant-orders-create.mjs:235:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/merchant-orders-create/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}

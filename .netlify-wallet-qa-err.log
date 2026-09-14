@@ -1,0 +1,132 @@
+(node:30844) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:93:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:93:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:93:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:93:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:93:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:145:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:145:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:145:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:145:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Origin not allowed
+    at assertSameOrigin (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:65:27)
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:145:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171397
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171385)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 403,
+  code: 'ORIGIN_NOT_ALLOWED'
+}
+Error: Invalid order
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/netlify/functions/node-orders-refresh.mjs:97:64)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:171376)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-refresh/___netlify-bootstrap.mjs:2:170529 {
+  status: 400,
+  code: 'INVALID_ORDER'
+}
+Error: Invalid order
+    at Object.handler (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/netlify/functions/node-orders-broadcast.mjs:149:64)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at RO (file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:171376)
+    at file:///D:/UserData/Documents/%E7%99%BD%E7%9A%AE%E4%B9%A6/.netlify/functions-serve/node-orders-broadcast/___netlify-bootstrap.mjs:2:170529 {
+  status: 400,
+  code: 'INVALID_ORDER'
+}
+ »   Error: Netlify CLI has terminated unexpectedly.
+
+Please report this problem with reproduction steps at https://ntl.fyi/cli-error including the error details below.
+

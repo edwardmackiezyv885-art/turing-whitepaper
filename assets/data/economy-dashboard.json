@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "prelaunch",
+  "asOf": null,
+  "timezone": "Asia/Shanghai",
+  "metrics": {
+    "turBurnedToday": null,
+    "gemIssuedToday": null,
+    "gemBurnedToday": null,
+    "turBurnedTotal": null,
+    "gemCirculating": null,
+    "registeredPlayersTotal": null,
+    "rwaMerchantsLive": null,
+    "rwaGemOrdersToday": null,
+    "rwaDiscountRedemptionsToday": null,
+    "rwaTurBurnedTotal": null
+  }
+}

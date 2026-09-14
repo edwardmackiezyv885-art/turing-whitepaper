@@ -1,0 +1,6 @@
+/target
+/.anchor
+/.turbo
+node_modules
+*.keypair.json
+.env

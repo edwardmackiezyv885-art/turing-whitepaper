@@ -1,0 +1,147 @@
+⬥ No app server detected. Using simple static server
+⬥ Running static server from "白皮书\netlify-deploy"
+⬥ Setting up local dev server
+
+⬥ Static server listening to 3999
+
+   ╭─────────────────────── ⬥  ────────────────────────╮
+   │                                                   │
+   │   Local dev server ready: http://localhost:8888   │
+   │                                                   │
+   ╰───────────────────────────────────────────────────╯
+
+⬥ Loaded function node-orders-admin
+⬥ Loaded function node-orders-create
+⬥ Loaded function node-orders-config
+⬥ Loaded function node-orders-status
+⬥ Loaded function node-orders-verify
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 857 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 249 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 247 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 250 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 206 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 209 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading function node-orders-status...
+⬥ Reloaded function node-orders-status
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 264 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 264 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 272 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 271 ms.
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 270 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 290 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 224 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 249 ms.
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 239 ms.
+⬥ Loaded function node-orders-refresh
+⬥ Loaded function node-orders-broadcast
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh
+Response with status 403 in 321 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh.html
+Response with status 403 in 245 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh.htm
+Response with status 403 in 215 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh/index.html
+Response with status 403 in 200 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh/index.htm
+Response with status 403 in 215 ms.
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast
+Response with status 403 in 231 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast.html
+Response with status 403 in 229 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast.htm
+Response with status 403 in 235 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast/index.html
+Response with status 403 in 238 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast/index.htm
+Response with status 403 in 229 ms.
+Request from ::ffff:127.0.0.1: POST /api/node-orders/refresh
+Response with status 400 in 208 ms.
+Request from ::ffff:127.0.0.1: POST /api/node-orders/broadcast
+Response with status 400 in 229 ms.
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading function node-orders-admin...
+⬥ Reloading function node-orders-create...
+⬥ Reloading function node-orders-config...
+⬥ Reloading function node-orders-status...
+⬥ Reloading function node-orders-verify...
+⬥ Reloading function node-orders-refresh...
+⬥ Reloading function node-orders-broadcast...
+⬥ Reloading function node-orders-config...
+⬥ Reloading function node-orders-create...
+⬥ Reloading function node-orders-verify...
+⬥ Reloaded function node-orders-config
+⬥ Reloaded function node-orders-create
+⬥ Reloaded function node-orders-config
+⬥ Reloaded function node-orders-create
+⬥ Reloaded function node-orders-broadcast
+⬥ Reloaded function node-orders-status
+⬥ Reloaded function node-orders-admin
+⬥ Reloaded function node-orders-verify
+⬥ Reloaded function node-orders-verify
+⬥ Reloaded function node-orders-refresh
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading function node-orders-admin...
+⬥ Reloading function node-orders-create...
+⬥ Reloading function node-orders-config...
+⬥ Reloading function node-orders-status...
+⬥ Reloading function node-orders-verify...
+⬥ Reloading function node-orders-refresh...
+⬥ Reloading function node-orders-broadcast...
+⬥ Reloading function node-orders-create...
+⬥ Loaded function node-orders-balance
+⬥ Reloaded function node-orders-broadcast
+⬥ Reloaded function node-orders-admin
+⬥ Reloaded function node-orders-config
+⬥ Reloaded function node-orders-status
+⬥ Reloaded function node-orders-create
+⬥ Reloaded function node-orders-create
+⬥ Reloaded function node-orders-refresh
+⬥ Reloaded function node-orders-verify
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+⬥ Reloading headers files from [ '_headers', 'netlify-deploy\\_headers', 'netlify.toml' ]
+Error: EBUSY: resource busy or locked, watch 'D:\UserData\Documents\白皮书\.vs\白皮书\FileContentIndex\merges\0f0a119d-a3e1-45ff-a3fa-c9e5e278aaf9.vsidx'
+    at FSWatcher.<computed> (node:internal/fs/watchers:321:19)
+    at watch (node:fs:2548:36)
+    at createFsWatchInstance (file:///D:/DevCache/npm-global/node_modules/netlify-cli/node_modules/chokidar/esm/handler.js:126:16)
+    at setFsWatchListener (file:///D:/DevCache/npm-global/node_modules/netlify-cli/node_modules/chokidar/esm/handler.js:171:19)
+    at NodeFsHandler._watchWithNodeFs (file:///D:/DevCache/npm-global/node_modules/netlify-cli/node_modules/chokidar/esm/handler.js:325:22)
+    at NodeFsHandler._handleFile (file:///D:/DevCache/npm-global/node_modules/netlify-cli/node_modules/chokidar/esm/handler.js:391:29)
+    at NodeFsHandler._addToNodeFs (file:///D:/DevCache/npm-global/node_modules/netlify-cli/node_modules/chokidar/esm/handler.js:615:31)

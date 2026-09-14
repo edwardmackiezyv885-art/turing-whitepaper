@@ -1,0 +1,56 @@
+⬥ No app server detected. Using simple static server
+⬥ Running static server from "白皮书\netlify-deploy"
+⬥ Setting up local dev server
+
+⬥ Static server listening to 3999
+
+   ╭─────────────────────── ⬥  ────────────────────────╮
+   │                                                   │
+   │   Local dev server ready: http://localhost:8890   │
+   │                                                   │
+   ╰───────────────────────────────────────────────────╯
+
+⬥ Loaded function node-orders-config
+⬥ Loaded function merchant-orders-create
+⬥ Loaded function node-orders-balance
+⬥ Loaded function merchant-orders-refresh
+⬥ Loaded function merchant-orders-status
+⬥ Loaded function node-orders-create
+⬥ Loaded function node-orders-refresh
+⬥ Loaded function merchant-orders-verify
+⬥ Loaded function node-orders-verify
+⬥ Loaded function merchant-orders-balance
+⬥ Loaded function node-orders-status
+⬥ Loaded function merchant-orders-broadcast
+⬥ Loaded function merchant-orders-config
+⬥ Loaded function node-orders-admin
+⬥ Loaded function node-orders-reconcile
+⬥ Loaded function node-orders-broadcast
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 457 ms.
+Request from ::1: GET /api/merchant-orders/config
+Response with status 200 in 251 ms.
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 463 ms.
+Request from ::1: GET /api/merchant-orders/config
+Response with status 200 in 275 ms.
+Request from ::1: GET /api/merchant-orders/config
+Response with status 200 in 235 ms.
+Request from ::1: POST /api/merchant-orders/create
+Request from ::1: POST /api/merchant-orders/create
+Request from ::1: GET /api/merchant-orders/create
+Response with status 405 in 427 ms.
+Response with status 403 in 434 ms.
+Response with status 400 in 433 ms.
+ »   Warning: Missing form submission function handler
+Request from ::1: POST /api/merchant-orders/create.html
+Response with status 403 in 257 ms.
+ »   Warning: Missing form submission function handler
+Request from ::1: POST /api/merchant-orders/create.htm
+Response with status 403 in 247 ms.
+ »   Warning: Missing form submission function handler
+Request from ::1: POST /api/merchant-orders/create/index.html
+Response with status 403 in 230 ms.
+ »   Warning: Missing form submission function handler
+Request from ::1: POST /api/merchant-orders/create/index.htm
+Response with status 403 in 231 ms.

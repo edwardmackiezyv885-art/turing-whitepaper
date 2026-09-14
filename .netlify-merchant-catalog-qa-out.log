@@ -1,0 +1,95 @@
+⬥ No app server detected. Using simple static server
+⬥ Running static server from "白皮书\netlify-deploy"
+⬥ Setting up local dev server
+
+⬥ Static server listening to 3999
+
+   ╭─────────────────────── ⬥  ────────────────────────╮
+   │                                                   │
+   │   Local dev server ready: http://localhost:8891   │
+   │                                                   │
+   ╰───────────────────────────────────────────────────╯
+
+⬥ Loaded function node-orders-admin
+⬥ Loaded function node-orders-broadcast
+⬥ Loaded function node-orders-reconcile
+⬥ Loaded function merchant-orders-balance
+⬥ Loaded function node-orders-verify
+⬥ Loaded function merchant-orders-broadcast
+⬥ Loaded function merchant-orders-config
+⬥ Loaded function merchant-orders-status
+⬥ Loaded function merchant-applications-submit
+⬥ Loaded function merchant-assets-upload
+⬥ Loaded function node-orders-refresh
+⬥ Loaded function merchant-applications-config
+⬥ Loaded function merchant-orders-refresh
+⬥ Loaded function node-orders-config
+⬥ Loaded function node-orders-balance
+⬥ Loaded function merchant-catalog-sync
+⬥ Loaded function node-orders-create
+⬥ Loaded function node-orders-status
+⬥ Loaded function merchant-orders-verify
+⬥ Loaded function merchant-applications-draft
+⬥ Loaded function merchant-catalog-export
+⬥ Loaded function merchant-applications-admin
+⬥ Loaded function merchant-orders-create
+⬥ Loaded function merchant-assets-file
+Request from ::ffff:127.0.0.1: GET /api/merchant-applications/config
+Response with status 200 in 399 ms.
+Request from ::1: GET /api/node-orders/config
+Response with status 200 in 285 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-applications/config
+Response with status 200 in 235 ms.
+Request from ::ffff:127.0.0.1: POST /api/merchant-applications/draft
+Response with status 403 in 247 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/merchant-applications/draft.html
+Response with status 403 in 216 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/merchant-applications/draft.htm
+Response with status 403 in 219 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/merchant-applications/draft/index.html
+Response with status 403 in 224 ms.
+ »   Warning: Missing form submission function handler
+Request from ::ffff:127.0.0.1: POST /api/merchant-applications/draft/index.htm
+Response with status 403 in 214 ms.
+Request from ::1: POST /api/merchant-applications/draft
+⬥ Netlify Blobs running in sandbox mode for local development. Refer to https://ntl.fyi/local-blobs for more information.
+Response with status 201 in 243 ms.
+Request from ::1: POST /api/merchant-assets/upload
+Response with status 201 in 262 ms.
+Request from ::1: POST /api/merchant-assets/upload
+Response with status 201 in 256 ms.
+Request from ::1: POST /api/merchant-applications/submit
+Response with status 201 in 256 ms.
+Request from ::1: GET /api/merchant-applications/admin?status=submitted
+Response with status 200 in 240 ms.
+Request from ::1: GET /api/merchant-assets/file?applicationId=5acf6c51-d0d1-488c-be25-dda38eecfad2&assetId=8cf15d23-6208-48a6-ad85-cc3c58fb7be1
+Response with status 200 in 254 ms.
+Request from ::1: POST /api/merchant-applications/admin
+Response with status 200 in 243 ms.
+Request from ::1: POST /api/merchant-applications/admin
+Response with status 200 in 242 ms.
+Request from ::1: GET /api/merchant-catalog/export?applicationId=5acf6c51-d0d1-488c-be25-dda38eecfad2
+Response with status 200 in 240 ms.
+Request from ::1: POST /api/merchant-catalog/sync
+Response with status 503 in 245 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-orders/config
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 298 ms.
+Response with status 200 in 245 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-applications/admin
+Response with status 200 in 217 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-assets/file?applicationId=5acf6c51-d0d1-488c-be25-dda38eecfad2&assetId=8cf15d23-6208-48a6-ad85-cc3c58fb7be1
+Request from ::ffff:127.0.0.1: GET /api/merchant-assets/file?applicationId=5acf6c51-d0d1-488c-be25-dda38eecfad2&assetId=11fe5c94-5c47-4c7e-9d28-3f49a9867689
+Response with status 200 in 223 ms.
+Response with status 200 in 225 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-applications/admin
+Response with status 200 in 227 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-assets/file?applicationId=5acf6c51-d0d1-488c-be25-dda38eecfad2&assetId=8cf15d23-6208-48a6-ad85-cc3c58fb7be1
+Response with status 200 in 214 ms.
+Request from ::ffff:127.0.0.1: GET /api/merchant-orders/config
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+Response with status 200 in 212 ms.
+Response with status 200 in 206 ms.

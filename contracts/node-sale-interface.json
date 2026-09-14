@@ -1,0 +1,63 @@
+{
+  "name": "turing_node_sale",
+  "version": "1.0.0-spec",
+  "status": "integration-specification-not-deployed",
+  "network": "solana-mainnet-beta",
+  "treasury": "FFhKLmZq6UZF3VvmckCZt8DvXq8LAVQaYc2SLa6Er2W8",
+  "oracle": {
+    "provider": "Pyth SOL/USD",
+    "feedId": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+    "maxAgeSeconds": 60
+  },
+  "tiers": [
+    { "id": 0, "name": "explorer", "usd": 1000, "cap": 350 },
+    { "id": 1, "name": "builder", "usd": 5000, "cap": 40 },
+    { "id": 2, "name": "cocreator", "usd": 10000, "cap": 20 },
+    { "id": 3, "name": "market-agent", "usd": 50000, "cap": 5 }
+  ],
+  "instructions": [
+    {
+      "name": "initializeSale",
+      "args": ["authority", "treasury", "oracleFeed", "tierCaps"],
+      "effects": ["create sale-state PDA", "set paused=true"]
+    },
+    {
+      "name": "purchaseNode",
+      "args": ["tier", "maxLamports", "optionalReferrer", "clientOrderId"],
+      "effects": ["validate Pyth price", "transfer SOL", "create purchase-record PDA", "mint non-transferable certificate NFT", "increment sold count", "emit NodePurchased"]
+    },
+    {
+      "name": "markDelivered",
+      "args": ["purchaseRecord"],
+      "effects": ["mark delivery final", "unlock referral reward eligibility", "emit NodeDelivered"]
+    },
+    {
+      "name": "mintReferralReward",
+      "args": ["purchaseRecord", "rewardMint"],
+      "effects": ["verify delivery", "mint one reward NFT", "prevent duplicate reward", "emit ReferralRewardMinted"]
+    },
+    {
+      "name": "reviewReferral",
+      "args": ["purchaseRecord", "newReferrer", "evidenceHash"],
+      "effects": ["multisig-authorized reassignment", "preserve prior referrer in event", "emit ReferralReviewed"]
+    },
+    {
+      "name": "setPaused",
+      "args": ["paused"],
+      "effects": ["multisig-controlled emergency pause"]
+    }
+  ],
+  "purchaseRecord": [
+    "buyer",
+    "tier",
+    "usdPrice",
+    "paidLamports",
+    "oraclePublishTime",
+    "referrer",
+    "certificateMint",
+    "clientOrderId",
+    "purchasedAt",
+    "delivered",
+    "referralRewardMinted"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "turing-whitepaper-payments",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run sync:static && npm run build:wallets && npm run build:payment && npm run build:world",
+    "sync:static": "node scripts/sync-static.mjs",
+    "build:wallets": "esbuild src/wallet-standard-bridge.js --bundle --minify --format=iife --global-name=TuringWalletStandardBundle --outfile=netlify-deploy/wallet-standard-bridge.js && esbuild src/metamask-solana-connector.js --bundle --minify --format=iife --global-name=TuringMetaMaskBundle --outfile=netlify-deploy/metamask-solana-connector.js && esbuild src/okx-solana-connector.js --bundle --minify --format=iife --global-name=TuringOKXBundle --outfile=netlify-deploy/okx-solana-connector.js && node scripts/copy-wallet-bundles.mjs",
+    "build:payment": "esbuild src/usdt-payment-adapter.js --bundle --minify --format=iife --global-name=TuringPaymentBundle --outfile=netlify-deploy/usdt-payment-adapter.js && node scripts/copy-payment-bundle.mjs",
+    "build:world": "node scripts/clean-world-bundle.mjs && esbuild src/world-3d.js --bundle --minify --format=iife --global-name=TuringWorldRuntime --outfile=world-runtime.js && node scripts/copy-world-bundle.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "dependencies": {
+    "@metamask/connect-solana": "^2.1.1",
+    "@netlify/blobs": "10.1.0",
+    "@okxconnect/solana-provider": "^1.9.1",
+    "@okxconnect/universal-provider": "^1.9.1",
+    "@solana/wallet-standard-chains": "^1.1.2",
+    "@solana/wallet-standard-features": "^1.4.0",
+    "@solana/web3.js": "1.98.4",
+    "@sparkjsdev/spark": "^2.1.0",
+    "@wallet-standard/app": "^1.1.1",
+    "@wallet-standard/features": "^1.1.1",
+    "bs58": "^6.0.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "wrangler": "^4.131.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "rpc-websockets": "9.3.0"
+  }
+}

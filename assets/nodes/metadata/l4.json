@@ -1,0 +1,14 @@
+{
+  "name": "Turing Node Certificate — L4",
+  "symbol": "TNODE",
+  "description": "Wallet-bound certificate for a Turing L4 Core Market Agent Node on Solana Mainnet. Rights are governed by the published node agreement; this certificate is not a promise of fixed income, liquidity, or principal protection.",
+  "image": "https://meta9898.shop/assets/nodes/tnode-l4-core-agent.png",
+  "external_url": "https://meta9898.shop/#/en/nodes",
+  "attributes": [
+    { "trait_type": "Tier", "value": "L4 Core Market Agent" },
+    { "trait_type": "Reference Price", "value": "50,000 U" },
+    { "trait_type": "Initial Allocation", "value": 5 },
+    { "trait_type": "Transferability", "value": "Non-transferable" },
+    { "trait_type": "Network", "value": "Solana Mainnet" }
+  ]
+}

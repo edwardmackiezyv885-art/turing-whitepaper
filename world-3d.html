@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#071118" />
+    <meta name="description" content="图灵天空群岛 3D 世界体验。旋转、缩放并探索腾讯混元生成的高斯泼溅场景。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="图灵天空群岛 · 3D 世界" />
+    <meta property="og:description" content="进入图灵天空群岛，在线探索真实三维世界。" />
+    <meta property="og:image" content="https://meta9898.shop/assets/world/turing-sky-islands-panorama.webp" />
+    <meta property="og:url" content="https://meta9898.shop/world-3d.html" />
+    <title>图灵天空群岛 · 3D 世界</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./world-3d.css?v=20260714-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#world-main">跳到 3D 体验</a>
+
+    <main id="world-main" class="world-shell" tabindex="-1">
+      <div class="poster" aria-hidden="true"></div>
+      <div id="canvas-host" class="canvas-host" aria-label="可交互的图灵天空群岛三维场景"></div>
+      <div class="world-vignette" aria-hidden="true"></div>
+
+      <header class="world-header">
+        <a class="brand" href="./#/zh/introduction" aria-label="返回图灵白皮书">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 2 31 11 42 12 44 23 37 31 39 42 28 45 19 39 8 43 3 34 7 24 1 15 10 8 21 9Z"/><path d="m16 24 6-6 5 5 5-5 4 4-9 9-5-5-5 5-4-4Z"/></svg>
+          </span>
+          <span><b>图灵 <i>TURING</i></b><small data-zh="天空群岛" data-en="SKY ISLANDS">天空群岛</small></span>
+        </a>
+
+        <div class="header-actions">
+          <button id="language-button" class="glass-button language-button" type="button" aria-label="Switch to English">中 / EN</button>
+          <a class="glass-button back-button" href="./#/zh/introduction">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            <span data-zh="白皮书" data-en="Whitepaper">白皮书</span>
+          </a>
+        </div>
+      </header>
+
+      <section id="intro-panel" class="intro-panel" aria-labelledby="world-title">
+        <p class="eyebrow"><span></span><span data-zh="图灵世界 · 首次实景预览" data-en="TURING WORLD · FIRST IMMERSIVE PREVIEW">图灵世界 · 首次实景预览</span></p>
+        <h1 id="world-title" data-zh="在云海之上，探索图灵天空群岛" data-en="Explore Turing Sky Islands above the clouds">在云海之上，<br />探索图灵天空群岛</h1>
+        <p class="intro-copy" data-zh="拖动旋转视角，滚轮或双指缩放。场景将按需下载约 10.6 MB 的 3D 数据。" data-en="Drag to orbit, scroll or pinch to zoom. The experience loads about 10.6 MB of 3D data on demand.">拖动旋转视角，滚轮或双指缩放。场景将按需下载约 10.6 MB 的 3D 数据。</p>
+        <div class="intro-actions">
+          <button id="enter-button" class="enter-button" type="button" disabled aria-busy="false">
+            <span data-zh="进入 3D 世界" data-en="Enter the 3D world">进入 3D 世界</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+          <button id="panorama-button" class="secondary-button" type="button">
+            <span data-zh="先看全景图" data-en="View panorama">先看全景图</span>
+          </button>
+        </div>
+        <p class="compatibility"><span class="status-dot"></span><span data-zh="支持桌面与手机浏览器 · 无需安装" data-en="Desktop and mobile browsers · No installation">支持桌面与手机浏览器 · 无需安装</span></p>
+      </section>
+
+      <section id="loading-panel" class="loading-panel" role="status" aria-live="polite" hidden>
+        <div class="loading-orbit" aria-hidden="true"><span></span><i></i></div>
+        <div class="loading-copy">
+          <strong id="loading-title" data-zh="正在打开天空群岛" data-en="Opening Sky Islands">正在打开天空群岛</strong>
+          <span id="loading-detail" data-zh="准备 3D 渲染器…" data-en="Preparing 3D renderer…">准备 3D 渲染器…</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+        <span id="progress-label" class="progress-label">0%</span>
+        <button id="cancel-button" class="text-button" type="button" data-zh="取消加载" data-en="Cancel loading">取消加载</button>
+      </section>
+
+      <aside id="control-panel" class="control-panel" aria-label="3D 场景控制" hidden>
+        <div class="control-hint">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 11V7a2 2 0 0 1 4 0v4-1a2 2 0 0 1 4 0v1-1a2 2 0 0 1 4 0v5c0 4-3 7-7 7h-1c-2.4 0-4.6-1.2-6-3l-3-4a2 2 0 0 1 3-2l2 2v-4Z"/></svg>
+          <span data-zh="拖动旋转 · 滚轮 / 双指缩放" data-en="Drag to orbit · Scroll / pinch to zoom">拖动旋转 · 滚轮 / 双指缩放</span>
+        </div>
+        <div class="control-buttons">
+          <button id="reset-button" class="icon-button" type="button" aria-label="重置视角">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+          </button>
+          <button id="fullscreen-button" class="icon-button" type="button" aria-label="进入全屏">
+            <svg class="expand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+            <svg class="shrink-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8H3V3M16 8h5V3M8 16H3v5M16 16h5v5"/></svg>
+          </button>
+        </div>
+      </aside>
+
+      <div id="fallback-panel" class="fallback-panel" role="alert" hidden>
+        <strong data-zh="暂时无法打开 3D 场景" data-en="The 3D scene could not be opened">暂时无法打开 3D 场景</strong>
+        <p id="fallback-message" data-zh="当前设备将继续显示高清全景图。您可以刷新页面后重试。" data-en="A high-resolution panorama remains available. Refresh the page to try again.">当前设备将继续显示高清全景图。您可以刷新页面后重试。</p>
+        <details id="diagnostic-details" class="diagnostic-details" hidden>
+          <summary data-zh="查看错误详情" data-en="View error details">查看错误详情</summary>
+          <code id="diagnostic-code"></code>
+        </details>
+        <button id="retry-button" type="button" data-zh="重新加载" data-en="Try again">重新加载</button>
+      </div>
+
+      <footer class="world-footer">
+        <span data-zh="腾讯混元 3D 场景 · SPZ 高斯泼溅实时渲染" data-en="Tencent Hunyuan 3D scene · Real-time SPZ Gaussian splatting">腾讯混元 3D 场景 · SPZ 高斯泼溅实时渲染</span>
+        <span class="quality-pill"><i></i><span data-zh="实时 3D" data-en="LIVE 3D">实时 3D</span></span>
+      </footer>
+    </main>
+
+    <script src="./world-boot.js?v=20260714-3" defer></script>
+  </body>
+</html>

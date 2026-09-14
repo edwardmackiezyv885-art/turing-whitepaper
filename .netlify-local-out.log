@@ -1,0 +1,25 @@
+⬥ Using simple static server because '--dir' flag was specified
+⬥ Running static server from "白皮书\netlify-deploy"
+⬥ Setting up local dev server
+
+⬥ Static server listening to 3999
+
+   ╭─────────────────────── ⬥  ────────────────────────╮
+   │                                                   │
+   │   Local dev server ready: http://localhost:8888   │
+   │                                                   │
+   ╰───────────────────────────────────────────────────╯
+
+⬥ Loaded function node-orders-verify
+⬥ Loaded function node-orders-admin
+⬥ Loaded function node-orders-status
+⬥ Loaded function node-orders-create
+⬥ Loaded function node-orders-config
+Request from ::ffff:127.0.0.1: GET /api/node-orders/config
+
+⬥ Function node-orders-config has returned an error: require() of ES Module D:\UserData\Documents\白皮书\.netlify\functions-serve\node-orders-config\node_modules\rpc-websockets\node_modules\uuid\dist-node\index.js from D:\UserData\Documents\白皮书\.netlify\functions-serve\node-orders-config\node_modules\rpc-websockets\dist\index.cjs not supported.
+Instead change the require of index.js in D:\UserData\Documents\白皮书\.netlify\functions-serve\node-orders-config\node_modules\rpc-websockets\dist\index.cjs to a dynamic import() which is available in all CommonJS modules.
+    at tead change the require of index.js in D:\UserData\Documents\白皮书\.netlify\functions-serve\node-orders-config\node_modules\rpc-websockets\dist\index.cjs to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (D:\UserData\Documents\白皮书\.netlify\functions-serve\node-orders-config\node_modules\rpc-websockets\dist\index.cjs:6:12)
+
+Response with status 500 in 516 ms.

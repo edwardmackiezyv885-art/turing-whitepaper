@@ -1,0 +1,20 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+turing_node_sale = "46z8HyP9StJs6SvPJGC2HgsUoFuH2snsSiWypWVzxdNF"
+
+[programs.mainnet]
+turing_node_sale = "46z8HyP9StJs6SvPJGC2HgsUoFuH2snsSiWypWVzxdNF"
+
+[provider]
+cluster = "mainnet"
+wallet = "~/.config/solana/turing-mainnet-authority.json"
+
+[scripts]
+test = "cargo test --workspace"
+
