@@ -1,4 +1,5 @@
 name: Deploy GitHub Pages
+# Publish the prebuilt static site from docs.
 
 on:
   push:
