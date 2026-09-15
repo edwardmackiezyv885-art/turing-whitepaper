@@ -316,7 +316,7 @@ const MERCHANT_ONBOARDING_CONTENT = Object.freeze({
     <section class="merchant-onboarding-overview">
       <h2 id="merchant-value">让实体门店成为图灵世界的一部分</h2>
       <p class="chapter-lead">商家入驻不是单纯购买广告位。通过主体审核、店面内容建设、TulingCard 权益、游戏任务和到店核销，实体门店可以在元宇宙 CBD 中获得持续展示、玩家触达和可复核的获客数据。</p>
-      <div class="merchant-status-banner" role="note"><span>APPLICATION + MAINNET CHECKOUT</span><strong>商家申请与 Solana 主网 USDT 服务费收款均已开放</strong><p>商家资料进入审核后台；资料提交成功后可创建与申请编号绑定的 299 USDT 商业服务费订单。该费用不产生收益、本金返还、NFT 或 TUR 兑付权。</p></div>
+      <div class="merchant-status-banner" role="note"><span>APPLICATION + MAINNET CHECKOUT</span><strong>商家入驻请联系客服申请</strong><p>请通过 Telegram 联系客服提交入驻申请和资料。客服会协助审核并安排后续接入。 <a href="https://t.me/jiali66888" target="_blank" rel="noopener">Telegram：@jiali66888</a></p></div>
       <div class="merchant-onboarding-value-grid">
         <article><span>CBD</span><h3>数字店面展示</h3><p>将经过授权的店面特征、招牌、商品和品牌故事重建到游戏商业区。</p></article>
         <article><span>TRAFFIC</span><h3>游戏客流触达</h3><p>通过地图、任务、Guild 活动、TulingCard 权益和城市内容接触新客户。</p></article>
@@ -335,7 +335,7 @@ const MERCHANT_ONBOARDING_CONTENT = Object.freeze({
       <div class="callout"><p><strong>优先类别：</strong>餐饮、零售、本地特产、文旅体验、酒店民宿、生活服务、运动娱乐、文化内容与具备实体履约能力的品牌。</p></div>
     </section>
     <section>
-      <h2 id="qualification-draft">商家服务方案与功能状态</h2>
+      <h2 id="qualification-draft">联系客服申请商家入驻</h2>
       <p>商家先提交资料，再使用本人控制的 Solana 钱包创建独立服务费订单。每笔订单绑定申请编号、精确金额、官方 USDT Mint、付款钱包和唯一链上 reference。</p>
       <div class="merchant-plan-grid">
         <article><span>固定服务费</span><strong>299 USDT</strong><small>商家入驻服务费；链上订单固定结算，不按付款时汇率重算。</small></article>
@@ -419,7 +419,7 @@ const MERCHANT_ONBOARDING_CONTENT = Object.freeze({
     <section class="merchant-onboarding-overview">
       <h2 id="merchant-value">Bring a physical storefront into the Turing world</h2>
       <p class="chapter-lead">Merchant onboarding is more than buying an ad slot. Entity review, digital-store construction, TulingCard benefits, game quests, and in-store redemption can give physical merchants persistent CBD visibility, player reach, and reviewable acquisition data.</p>
-      <div class="merchant-status-banner" role="note"><span>APPLICATION + MAINNET CHECKOUT</span><strong>Merchant applications and Solana Mainnet USDT service-fee checkout are open</strong><p>Merchant information is saved to the review backend. After submission, an applicant may create a 299 USDT commercial service-fee order bound to the application ID. It creates no yield, principal redemption, NFT, or TUR settlement right.</p></div>
+      <div class="merchant-status-banner" role="note"><span>APPLICATION + MAINNET CHECKOUT</span><strong>Contact support to apply for merchant onboarding</strong><p>Please contact our support team on Telegram to submit your onboarding application and materials. <a href="https://t.me/jiali66888" target="_blank" rel="noopener">Telegram: @jiali66888</a></p></div>
       <div class="merchant-onboarding-value-grid">
         <article><span>CBD</span><h3>Digital storefront</h3><p>Rebuild authorized storefront features, signage, products, and brand stories inside the game CBD.</p></article>
         <article><span>TRAFFIC</span><h3>Game-driven reach</h3><p>Reach new customers through maps, quests, Guild events, TulingCard benefits, and city content.</p></article>
@@ -433,7 +433,7 @@ const MERCHANT_ONBOARDING_CONTENT = Object.freeze({
       <div class="callout"><p><strong>Priority categories:</strong> food and beverage, retail, local specialties, travel experiences, hospitality, local services, sports and entertainment, cultural content, and brands with real fulfilment capability.</p></div>
     </section>
     <section>
-      <h2 id="qualification-draft">Merchant service plan and feature status</h2>
+      <h2 id="qualification-draft">Contact support to apply</h2>
       <p>Merchants submit information first, then use a self-controlled Solana wallet to create a separate service-fee order. Each order binds the application ID, exact amount, official USDT mint, payer wallet, and unique on-chain reference.</p>
       <div class="merchant-plan-grid"><article><span>Fixed service fee</span><strong>299 USDT</strong><small>Product price reference is approximately CNY 10,000; the on-chain amount is fixed and is not recalculated at payment time.</small></article><article><span>Settlement network</span><strong>Solana Mainnet</strong><small>Only the official USDT mint is accepted through a server-created order valid for five minutes.</small></article><article><span>Service scope</span><strong>Merchant and CBD onboarding</strong><small>Application review, digital-store planning, CBD launch preparation, and basic operations onboarding.</small></article><article><span>Transaction type</span><strong>One-time commercial service fee</strong><small>Not a deposit, stake, or investment; no yield, principal redemption, NFT, or TUR settlement.</small></article></div>
       <div class="merchant-activation-grid" aria-label="Merchant onboarding feature status"><article data-state="live"><div><small>01 · APPLICATION</small><span class="status-pill live">Open</span></div><h3>Saved to the review backend</h3><p>Store introductions, products, player benefits, and asset links are available to the review team after submission.</p></article><article data-state="live"><div><small>02 · SOLANA USDT</small><span class="status-pill live">Open</span></div><h3>Independent Mainnet service-fee order</h3><p>Exact amount, official mint, payer wallet, application ID, and unique reference are bound to the order and verified on-chain.</p></article><article data-state="live"><div><small>03 · SERVICE QUEUE</small><span class="status-pill live">Connected</span></div><h3>Payment receipt enters service operations</h3><p>After on-chain verification, the order and signature are saved for application review, planning, and onboarding follow-up.</p></article></div>
@@ -1052,4 +1052,5 @@ window.WHITEPAPER_DATA = {
     }
   }
 };
+
 
